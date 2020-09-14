@@ -1,0 +1,26 @@
+{
+    "name": "jzc\/junit-laravel",
+    "description": "A simplified version of the laravel framework unit test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jzc360",
+            "email": "862512264@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jzc\\JunitLaravel\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jzc\\JunitLaravel\\JunitServiceProvider"
+            ]
+        }
+    }
+}
